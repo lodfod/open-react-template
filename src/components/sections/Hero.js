@@ -76,9 +76,9 @@ const Hero = ({
               <p className="m-0 mb-32 reveal-from-bottom bigtext" data-reveal-delay="400">
                 Upside is changing the way secondary equity is exchanged. Become a part of the startup boom by joining us today.
                 </p>
-              <div className="reveal-from-bottom" data-reveal-delay="600">
+              <div className="reveal-from-bottom" data-reveal-delay="400">
                 <ButtonGroup>
-                  <Button tag="a" color="primary" wideMobile href="https://cruip.com/">
+                  <Button tag="a" color="primary" wideMobile href="#">
                     Learn More
                     </Button>
                   <Button tag="a" color="dark" wideMobile href="https://github.com/lodfod/open-react-template/">
