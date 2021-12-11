@@ -2,6 +2,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
 import { SectionProps } from '../../utils/SectionProps';
+import Image from '../elements/Image';
+
 
 const propTypes = {
   children: PropTypes.node,
@@ -27,6 +29,7 @@ const GenericSection = ({
 
   const outerClasses = classNames(
     'section',
+    'hero section center-content',
     topOuterDivider && 'has-top-divider',
     bottomOuterDivider && 'has-bottom-divider',
     hasBgColor && 'has-bg-color',
@@ -45,10 +48,35 @@ const GenericSection = ({
       {...props}
       className={outerClasses}
     >
+    
       <div className="container">
         <div className={innerClasses}>
+        
           {children}
-          <p>yo wassup</p>
+          <div className="hero-figure reveal-from-bottom illustration-element-01" data-reveal-value="20px">
+              <Image
+                className="has-shadow"
+                src={require('./../../assets/images/BiggerLogoSplash.svg')}
+                alt="Hero"
+                width={448}
+                height={300} />
+
+          </div>
+          
+          <h1 className="bigtext mt-0 mb-16 reveal-from-bottom" class="bigtext" data-reveal-delay="200">
+              Analytics <span className="text-color-primary">Survey</span></h1>
+            
+              <div className="container-xs">
+              <p className="m-0 mb-32 reveal-from-bottom bigtext" data-reveal-delay="400">
+                Upside is changing the way secondary equity is exchanged. If you are currently a startup employee and/or have invested in any private companies, please fill out the form below. 
+                </p>
+              <div className="reveal-from-bottom" data-reveal-delay="400">
+                
+              </div>
+            </div>
+            
+          <iframe title="form" src="https://docs.google.com/forms/d/e/1FAIpQLSd6RIdxZDLi4axKvqImKZiKvfMKJhYIBj1iAXKbDzfUM3WkYA/viewform?embedded=true" width="900" height="970" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+          
         </div>
       </div>
     </section>

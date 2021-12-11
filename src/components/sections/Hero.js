@@ -68,7 +68,7 @@ const Hero = ({
                 </p>
               <div className="reveal-from-bottom" data-reveal-delay="400">
                 <ButtonGroup>
-                  <Button tag="a" color="primary" wideMobile href="#">
+                  <Button tag="a" color="primary" wideMobile href="/survey">
                     Learn More
                     </Button>
                   <Button tag="a" color="dark" wideMobile href="https://github.com/lodfod/open-react-template/">

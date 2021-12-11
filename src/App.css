@@ -3,3 +3,13 @@
     padding-top: 50px;
     padding-bottom: 50px
   }
+
+.d-flex {
+display: flex!important;
+height: 100vh;
+}
+
+.center {
+margin: 0 auto;
+align-self: center;
+}

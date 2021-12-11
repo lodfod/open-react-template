@@ -61,9 +61,9 @@ const FeaturesSplit = ({
     >
       <div className="container">
         <div className={innerClasses}>
-          <SectionHeader data={sectionHeader} className="center-content" />
+          <SectionHeader data={sectionHeader} className="center-content bigtext mt-0 mb-16 reveal-from-bottom" class="bigtext" data-reveal-delay="200" />
           <div className={splitClasses}>
-
+          {/* */}
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-right" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
