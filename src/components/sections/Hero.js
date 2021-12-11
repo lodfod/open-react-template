@@ -66,15 +66,15 @@ const Hero = ({
                 src={require('./../../assets/images/BiggerLogoSplash.svg')}
                 alt="Hero"
                 width={896}
-                height={504} />
+                height={600} />
 
           </div>
-            <h1 className="mt-0 mb-16 reveal-from-bottom" className="bigtext" data-reveal-delay="200">
+            <h1 className="bigtext mt-0 mb-16 reveal-from-bottom" class="bigtext" data-reveal-delay="200">
               Startup Equity <span className="text-color-primary">For Everyone.</span>
             </h1>
             <div className="container-xs">
-              <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
-                Upside is changing the way secondary equity is exchanged. Be a part of the startup boom and join us today.
+              <p className="m-0 mb-32 reveal-from-bottom bigtext" data-reveal-delay="400">
+                Upside is changing the way secondary equity is exchanged. Become a part of the startup boom by joining us today.
                 </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>
