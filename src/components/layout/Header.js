@@ -85,7 +85,7 @@ const Header = ({
             bottomDivider && 'has-bottom-divider'
           )}>
         <div className="logo" >
-          
+
         </div>
           
           {!hideNav &&
@@ -114,7 +114,7 @@ const Header = ({
                       navPosition && `header-nav-${navPosition}`
                     )}>
                     <li>
-                      <Link to="#0" onClick={closeMenu}>Research Study</Link>
+                      <Link to="/survey" onClick={closeMenu}>Survey</Link>
                     </li>
                   </ul>
                   {!hideSignin &&
