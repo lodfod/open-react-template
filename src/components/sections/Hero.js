@@ -60,20 +60,29 @@ const Hero = ({
       <div className="container-sm">
         <div className={innerClasses}>
           <div className="hero-content">
-            <h1 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200">
-              Landing template for <span className="text-color-primary">startups</span>
+          <div className="hero-figure reveal-from-bottom illustration-element-01" data-reveal-value="20px">
+              <Image
+                className="has-shadow"
+                src={require('./../../assets/images/BiggerLogoSplash.svg')}
+                alt="Hero"
+                width={896}
+                height={504} />
+
+          </div>
+            <h1 className="mt-0 mb-16 reveal-from-bottom" className="bigtext" data-reveal-delay="200">
+              Startup Equity <span className="text-color-primary">For Everyone.</span>
             </h1>
             <div className="container-xs">
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
-                Our landing page template works on all devices, so you only have to set it up once, and get beautiful results forever.
+                Upside is changing the way secondary equity is exchanged. Be a part of the startup boom and join us today.
                 </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>
                   <Button tag="a" color="primary" wideMobile href="https://cruip.com/">
-                    Get started
+                    Learn More
                     </Button>
-                  <Button tag="a" color="dark" wideMobile href="https://github.com/cruip/open-react-template/">
-                    View on Github
+                  <Button tag="a" color="dark" wideMobile href="https://github.com/lodfod/open-react-template/">
+                    Analytics
                     </Button>
                 </ButtonGroup>
               </div>
