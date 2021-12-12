@@ -3,8 +3,7 @@ import PropTypes from 'prop-types';
 import classNames from 'classnames';
 import { SectionProps } from '../../utils/SectionProps';
 import Image from '../elements/Image';
-import ButtonGroup from '../elements/ButtonGroup';
-import Button from '../elements/Button';
+
 
 
 const propTypes = {
@@ -66,23 +65,19 @@ const GenericSection = ({
           </div>
           
           <h1 className="bigtext mt-0 mb-16 reveal-from-bottom" class="bigtext" data-reveal-delay="200">
-              Analytics <span className="text-color-primary">Survey</span></h1>
+              Get <span className="text-color-primary">Updates</span></h1>
             
               <div className="container-xs">
               <p className="m-0 mb-32 reveal-from-bottom bigtext" data-reveal-delay="400">
-                Upside is changing the way secondary equity is exchanged. If you are currently a startup employee and/or have invested in any private companies, please fill out the form below. 
+                UpSide is changing the way secondary equity is exchanged. Join our e-list to get updates!
                 </p>
               <div className="reveal-from-bottom" data-reveal-delay="400">
                 
               </div>
             </div>
             
-          <iframe className="mt-0 mb-16 reveal-from-bottom" title="form" src="https://docs.google.com/forms/d/e/1FAIpQLSfY0fkLI3ThhqPbuLOQ7cmYr8ictJwEZLeG2dWT0SX1iW1hxA/viewform?embedded=true" width="600" height="4850" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-          <ButtonGroup>
-      <Button tag="a" color="primary" wideMobile href="/contact">
-                    Contact Us
-                    </Button>
-      </ButtonGroup>
+          <iframe className="mt-0 mb-16 reveal-from-bottom" title="form" src="https://docs.google.com/forms/d/e/1FAIpQLScDqcLPmQAxWRc2aD6mI8RFZxtoN0PTYgAg3gGfM3B0vVtHJQ/viewform?embedded=true" width="573" height="640" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+          
         </div>
       </div>
     </section>

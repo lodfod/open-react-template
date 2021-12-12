@@ -3,16 +3,13 @@ import React from 'react';
 
 
 //import Testimonial from '../components/sections/Testimonial';
-import GenericSection from '../components/sections/GenericSection';
-
+import ContactSection from '../components/sections/ContactSection';
 
 const Home = () => {
 
   return (
     <>
-      <GenericSection />
-      
-      
+      <ContactSection />
     </>
   );
 }
