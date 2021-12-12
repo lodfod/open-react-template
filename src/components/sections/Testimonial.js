@@ -86,7 +86,7 @@ const Testimonial = ({
                   <span className="testimonial-item-name text-color-high">VC Partner</span>
                   <span className="text-color-low"> / </span>
                   <span className="testimonial-item-link">
-                    <a href="#0">Pinnacle Ventures</a>
+                    <a href="#0">Silicon Valley</a>
                   </span>
                 </div>
               </div>
