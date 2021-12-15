@@ -73,7 +73,7 @@ const FeaturesSplit = ({
                   Our Platform
                   </h3>
                 <p className="m-0">
-                  With an all-in-one feed and dashboard system, we're making it as easy to buy and sell startup equity as it is to like your friend's recent. We pride ourselves on streamlining the investment experience for anyone who wants in on private shares. 
+                  With an all-in-one feed and dashboard system, we're making it as easy to buy and sell startup equity as it is to browse your social media. We pride ourselves on streamlining the investment experience for anyone who wants in on private shares. 
                   </p>
               </div>
               <div className={
