@@ -76,7 +76,7 @@ const GenericSection = ({
               </div>
             </div>
             
-          <iframe className="mt-0 mb-16 reveal-from-bottom" title="form" src="https://docs.google.com/forms/d/e/1FAIpQLScDqcLPmQAxWRc2aD6mI8RFZxtoN0PTYgAg3gGfM3B0vVtHJQ/viewform?embedded=true" width="573" height="640" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+          <iframe className="mt-0 mb-16 reveal-from-bottom" title="form" src="https://docs.google.com/forms/d/e/1FAIpQLScDqcLPmQAxWRc2aD6mI8RFZxtoN0PTYgAg3gGfM3B0vVtHJQ/viewform?embedded=true" width="80%" height="640" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
           
         </div>
       </div>
