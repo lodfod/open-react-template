@@ -60,11 +60,11 @@ const Hero = ({
 
           </div>
             <h1 className="bigtext mt-0 mb-16 reveal-from-bottom" class="bigtext" data-reveal-delay="200">
-              Startup Equity <span className="text-color-primary">For Everyone.</span>
+              Coming Soon in <span className="text-color-primary">Late 2022</span>
             </h1>
             <div className="container-xs">
               <p className="m-0 mb-32 reveal-from-bottom bigtext" data-reveal-delay="400">
-                UpSide is changing the way secondary equity is exchanged. Become a part of the startup boom by joining us today.
+                Join our waitlist for updates.
                 </p>
               <div className="reveal-from-bottom" data-reveal-delay="400">
                 <ButtonGroup>

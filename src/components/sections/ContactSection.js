@@ -69,7 +69,7 @@ const GenericSection = ({
             
               <div className="container-xs">
               <p className="m-0 mb-32 reveal-from-bottom bigtext" data-reveal-delay="400">
-                UpSide is changing the way secondary equity is exchanged. Join our e-list to get updates!
+                Join our e-list to get updates on development!
                 </p>
               <div className="reveal-from-bottom" data-reveal-delay="400">
                 
