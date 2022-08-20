@@ -5,6 +5,7 @@ import { SectionProps } from '../../utils/SectionProps';
 import Image from '../elements/Image';
 import ButtonGroup from '../elements/ButtonGroup';
 import Button from '../elements/Button';
+import { Widget } from '@typeform/embed-react'
 
 
 const propTypes = {
@@ -77,12 +78,11 @@ const GenericSection = ({
               </div>
             </div>
             
-          <iframe className="mt-0 mb-16 reveal-from-bottom" title="form" src="https://docs.google.com/forms/d/e/1FAIpQLSfY0fkLI3ThhqPbuLOQ7cmYr8ictJwEZLeG2dWT0SX1iW1hxA/viewform?embedded=true" width="80%" height="4850" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-          <ButtonGroup>
-      <Button tag="a" color="primary" wideMobile href="/contact">
-                    Contact Us
-                    </Button>
-      </ButtonGroup>
+            <div>
+            <Widget id="EhJ9hhJn" style={{ flex: 'center', width: '100%', height:'400px' }} className="my-form" />
+    </div>          
+    
+     
         </div>
       </div>
     </section>

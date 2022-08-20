@@ -13,6 +13,7 @@ import Survey from './views/Survey';
 import ContactForm from './views/ContactForm';
 import About from './views/About'
 
+
 // Initialize Google Analytics
 ReactGA.initialize(process.env.REACT_APP_GA_CODE);
 
@@ -42,6 +43,7 @@ const App = () => {
           <AppRoute exact path="/" component={Home} layout={LayoutDefault} />
           <AppRoute exact path="/contact" component={ContactForm} layout={LayoutDefault} />
           <AppRoute exact path="/about" component={About} layout={LayoutDefault} />
+          <AppRoute exact path="/survey" component={Survey} layout={LayoutDefault} />
         </Switch>
       )} />
   );
