@@ -63,13 +63,11 @@ const Hero = ({
               Coming Soon in <span className="text-color-primary">Late 2022</span>
             </h1>
             <div className="container-xs">
-              <p className="m-0 mb-32 reveal-from-bottom bigtext" data-reveal-delay="400">
-                Join our waitlist for updates.
-                </p>
+            
               <div className="reveal-from-bottom" data-reveal-delay="400">
-                <ButtonGroup>
-                  <Button tag="a" color="primary" wideMobile href="/contact">
-                    Get Updates
+              <ButtonGroup>
+                  <Button tag="a" color="primary" wideMobile href="/waitlist">
+                    Join our Waitlist
                     </Button>
                   
                 </ButtonGroup>
