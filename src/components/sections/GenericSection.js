@@ -71,11 +71,11 @@ const GenericSection = ({
           </div>
 
           <h1 className="bigtext mt-0 mb-16 reveal-from-bottom" class="bigtext" data-reveal-delay="200">
-            Analytics <span className="text-color-primary">Survey</span></h1>
+            Join Our <span className="text-color-primary">Waitlist</span></h1>
 
           <div className="container-xs">
             <p className="m-0 mb-32 reveal-from-bottom bigtext" data-reveal-delay="400">
-              Upside is changing the way secondary equity is exchanged. If you are currently a startup employee and/or have invested in any private companies, please fill out the form below.
+Are you an employee with stock looking for liquidity? An accredited investor interested in ownership of hot startups? Answer a few questions to join out waitlist!
             </p>
             <div className="reveal-from-bottom" data-reveal-delay="400">
 
