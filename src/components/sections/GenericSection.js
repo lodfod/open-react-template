@@ -75,7 +75,7 @@ const GenericSection = ({
 
           <div className="container-xs">
             <p className="m-0 mb-32 reveal-from-bottom bigtext" data-reveal-delay="400">
-Are you an employee with stock looking for liquidity? An accredited investor interested in ownership of hot startups? Answer a few questions to join out waitlist!
+Are you an employee with stock looking for liquidity or accredited investor interested in ownership of hot startups? Answer a few questions to join out waitlist!
             </p>
             <div className="reveal-from-bottom" data-reveal-delay="400">
 
