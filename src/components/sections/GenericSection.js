@@ -6,6 +6,9 @@ import Image from '../elements/Image';
 import ButtonGroup from '../elements/ButtonGroup';
 import Button from '../elements/Button';
 import { Widget } from '@typeform/embed-react'
+import { useState } from 'react';
+import { SegmentedControl } from '@mantine/core';
+
 
 
 const propTypes = {
@@ -29,6 +32,7 @@ const GenericSection = ({
   invertColor,
   ...props
 }) => {
+  const [value, setValue] = useState(true);
 
   const outerClasses = classNames(
     'section',
@@ -51,38 +55,49 @@ const GenericSection = ({
       {...props}
       className={outerClasses}
     >
-    
+
       <div className="container">
         <div className={innerClasses}>
-        
+
           {children}
           <div className="hero-figure reveal-from-bottom illustration-element-01" data-reveal-value="20px">
-              <Image
-                className="has-shadow"
-                src={require('./../../assets/images/BiggerLogoSplash.svg')}
-                alt="Hero"
-                width={448}
-                height={300} />
+            <Image
+              className="has-shadow"
+              src={require('./../../assets/images/BiggerLogoSplash.svg')}
+              alt="Hero"
+              width={448}
+              height={300} />
 
           </div>
-          
+
           <h1 className="bigtext mt-0 mb-16 reveal-from-bottom" class="bigtext" data-reveal-delay="200">
-              Analytics <span className="text-color-primary">Survey</span></h1>
-            
-              <div className="container-xs">
-              <p className="m-0 mb-32 reveal-from-bottom bigtext" data-reveal-delay="400">
-                Upside is changing the way secondary equity is exchanged. If you are currently a startup employee and/or have invested in any private companies, please fill out the form below. 
-                </p>
-              <div className="reveal-from-bottom" data-reveal-delay="400">
-                
-              </div>
+            Analytics <span className="text-color-primary">Survey</span></h1>
+
+          <div className="container-xs">
+            <p className="m-0 mb-32 reveal-from-bottom bigtext" data-reveal-delay="400">
+              Upside is changing the way secondary equity is exchanged. If you are currently a startup employee and/or have invested in any private companies, please fill out the form below.
+            </p>
+            <div className="reveal-from-bottom" data-reveal-delay="400">
+
             </div>
-            
-            <div>
-            <Widget id="EhJ9hhJn" style={{ flex: 'center', width: '100%', height:'400px' }} className="my-form" />
-    </div>          
-    
-     
+          </div>
+
+          <div>
+            <SegmentedControl
+              value={value}
+              onChange={setValue}
+              data={[
+                { label: 'English 🇺🇸', value: true },
+                { label: 'Español 🇪🇸', value: false },
+
+              ]}
+            />
+            <div>&nbsp;</div>
+            {!value && <Widget id="EhJ9hhJn" style={{ flex: 'center', width: '100%', height: '400px' }} className="my-form" />}
+            {value && <Widget id="OVGJMw2l" style={{ flex: 'center', width: '100%', height: '400px' }} className="my-form" />}
+          </div>
+
+
         </div>
       </div>
     </section>
