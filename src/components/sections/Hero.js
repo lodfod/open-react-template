@@ -62,13 +62,21 @@ const Hero = ({
             <h1 className="bigtext mt-0 mb-16 reveal-from-bottom" class="bigtext" data-reveal-delay="200">
               Connecting startup employess with <span className="text-color-primary">liquidity!</span>
             </h1>
-            <h3>Employees: </h3>
             <div className="container-xs">
+
+            <h3><span className="text-color-primary">Employees:</span></h3>
+
+            <ol style={{ listStyleType: 'lower-alpha' }}>
+            <li>Identify how much investors are willing to pay for your stocks</li>
+            <li>Get interest in your stocks</li>
+            <li>Directly onnect with investors and craft a deal</li>
+            <li>Access liquidty!</li>
+          </ol>
             
               <div className="reveal-from-bottom" data-reveal-delay="400">
               <ButtonGroup>
-                  <Button tag="a" color="primary" wideMobile href="/waitlist">
-                    Join our Waitlist
+                  <Button tag="a" color="primary" wideMobile href="https://app.upsideapp.io/">
+                    Get Started
                     </Button>
                   
                 </ButtonGroup>
