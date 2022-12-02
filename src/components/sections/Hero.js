@@ -60,7 +60,7 @@ const Hero = ({
 
           </div>
             <h1 className="bigtext mt-0 mb-16 reveal-from-bottom" class="bigtext" data-reveal-delay="200">
-              Coming Soon in <span className="text-color-primary">Late 2022</span>
+              Connecting startup employess with <span className="text-color-primary">liquidity!</span>
             </h1>
             <div className="container-xs">
             
