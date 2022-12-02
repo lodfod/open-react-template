@@ -62,6 +62,7 @@ const Hero = ({
             <h1 className="bigtext mt-0 mb-16 reveal-from-bottom" class="bigtext" data-reveal-delay="200">
               Connecting startup employess with <span className="text-color-primary">liquidity!</span>
             </h1>
+            <h3>Employees: </h3>
             <div className="container-xs">
             
               <div className="reveal-from-bottom" data-reveal-delay="400">
