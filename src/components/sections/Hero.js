@@ -63,7 +63,7 @@ const Hero = ({
               Connecting startup employess with <span className="text-color-primary">liquidity!</span>
             </h1>
 
-            <h4>Identify investor interest in your stock; craft deals and directly connect with them!</h4>
+            <h4>Identify interest in your stocks; craft deals and directly connect with investors!</h4>
             <div className="container-xs">
             
               <div className="reveal-from-bottom" data-reveal-delay="400">
