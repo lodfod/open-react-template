@@ -68,7 +68,7 @@ const Hero = ({
             
               <div className="reveal-from-bottom" data-reveal-delay="400">
               <ButtonGroup>
-                  <Button tag="a" color="primary" wideMobile href="https://app.upsideapp.io/">
+                  <Button tag="a" color="primary" wideMobile href="https://upside-bulletin.vercel.app/">
                     Get Started
                     </Button>
                   
