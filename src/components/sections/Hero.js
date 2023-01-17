@@ -60,7 +60,7 @@ const Hero = ({
 
           </div>
             <h1 className="bigtext mt-0 mb-16 reveal-from-bottom" class="bigtext" data-reveal-delay="200">
-              Connecting startup employess with <span className="text-color-primary">liquidity!</span>
+              Connecting startup stock owners with <span className="text-color-primary">liquidity!</span>
             </h1>
 
             <h4>Identify interest in your stocks; craft deals and directly connect with investors!</h4>
